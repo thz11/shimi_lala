@@ -35,4 +35,4 @@ repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs --d
 git clone https://github.com/thz22/local_manifest_odessa.git -b main .repo/local_manifests
 
 # sync
-repo sync -j8
+repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
