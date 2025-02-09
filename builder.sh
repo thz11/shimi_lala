@@ -23,13 +23,13 @@ git config --global user.name Thiago
 git config --global user.email thigo6617@gmail.com
 
 # make dir
-mkdir lineage
+mkdir lineage2
 
 # cd
-cd lineage
+cd lineage2
 
 # init repo
-repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
 
 # clone manifest
 git clone https://github.com/thz22/local_manifest_odessa.git -b main .repo/local_manifests
