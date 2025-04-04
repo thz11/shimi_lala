@@ -29,7 +29,7 @@ mkdir arrow
 cd arrow
 
 # init repo
-repo init -u https://github.com/ArrowOS-Extended/android_manifest.git -b arrow-13.1 --git-lfs --depth=1
+repo init -u https://github.com/thz11/android_manifest.git -b arrow-13.1 --git-lfs --depth=1
 
 # clone manifest
 git clone https://github.com/thz11/local_manifests_blossomy.git -b main .repo/local_manifests
