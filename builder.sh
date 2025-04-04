@@ -23,16 +23,16 @@ git config --global user.name Thiago
 git config --global user.email thigo6617@gmail.com
 
 # make dir
-mkdir lineage2
+mkdir arrow
 
 # cd
-cd lineage2
+cd arrow
 
 # init repo
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
+repo init -u https://github.com/ArrowOS-Extended/android_manifest.git -b arrow-13.1 --git-lfs --depth=1
 
 # clone manifest
-git clone https://github.com/thz22/local_manifest_odessa.git -b main .repo/local_manifests
+git clone https://github.com/thz11/local_manifests_blossomy.git -b main .repo/local_manifests
 
 # sync
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j8
